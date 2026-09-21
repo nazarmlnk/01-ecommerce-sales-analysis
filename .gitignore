@@ -1,0 +1,20 @@
+# Дані (великі, і їх можна завантажити з Kaggle)
+data/raw/*
+data/processed/*
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+
+# Python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.venv/
+venv/
+
+# Секрети
+.env
+kaggle.json
+
+# Системні файли
+.DS_Store
+Thumbs.db
